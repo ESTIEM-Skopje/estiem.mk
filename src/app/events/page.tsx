@@ -1,12 +1,11 @@
 "use client";
 import { useState } from "react";
-import HeaderComponent from "@/components/HeaderComponent";
 import SkeletonComponent from "@/components/SkeletonComponent";
 import eventsData from "./events.json";
 const Events = () => {
-  const [searchTerm, setSearchTerm] = useState("");
-  const [selectedTag, setSelectedTag] = useState("all");
-  const [eventList, setEventList] = useState(eventsData);
+  const [searchTerm] = useState("");
+  const [selectedTag] = useState("all");
+  const [eventList] = useState(eventsData);
 
   const filteredEvents = eventList.filter(
     (event) =>

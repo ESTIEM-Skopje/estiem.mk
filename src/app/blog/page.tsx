@@ -1,4 +1,3 @@
-import Image from "next/image";
 import BlogSkeletonComponent from "@/components/BlogSkeletonComponent";
 import Link from "next/link";
 

@@ -11,7 +11,7 @@ interface EventProps {
   link: string;
 }
 
-const SkeletonComponent = ({ img, title, date, info, link }: EventProps) => {
+const SkeletonComponent = ({ img, title, info, link }: EventProps) => {
   return (
     <div className="skeleton-card desktop-event">
       <div style={{ flex: "1 1 60%", background: "#eee" }}>
