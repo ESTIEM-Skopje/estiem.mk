@@ -1,7 +1,8 @@
 import Image from "next/image";
+import { StaticImageData } from 'next/image';
 
 interface FeatureProps {
-    img: string,
+    img: string | StaticImageData,
     heading: string,
     subheading: string
 }

@@ -1,6 +1,6 @@
 import MembersComponent from "../components/MembersComponent";
 import SubheadingComponent from "@/components/SubheadingComponent";
-
+import IMG1 from "../images/board-members/deckoto_sto_se_grizi_za_stranata.png";
 const BoardCompomemnt = () => {
   return (
     <div className="my-5">
@@ -11,7 +11,7 @@ const BoardCompomemnt = () => {
 
       <div className="md:flex gap-20 justify-center">
         <MembersComponent
-          img={"/images/board-members/deckoto_sto_se_grizi_za_stranata.png"}
+          img={IMG1}
           heading={"lorem ipsum"}
           subheading={"Chairperson"}
         />
