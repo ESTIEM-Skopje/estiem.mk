@@ -15,30 +15,30 @@ const MemoriesComponent = () => {
       </div>
       <div className="md:flex justify-center items-center gap-20 p-3">
         <MemoriesImagesComponent
-          img={"/images/memories/deckoto_sto_se_grizi_za_stranata.png"}
+          img={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7XoDijKDfiXKp5pGLX2q09XmXFiHUwWulsQ&s"}
           text={"test"}
         />
         <MemoriesImagesComponent
-          img={"/images/memories/deckoto_sto_se_grizi_za_stranata.png"}
+          img={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7XoDijKDfiXKp5pGLX2q09XmXFiHUwWulsQ&s"}
           text={"test"}
         />
         <MemoriesImagesComponent
-          img={"/images/memories/deckoto_sto_se_grizi_za_stranata.png"}
+          img={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7XoDijKDfiXKp5pGLX2q09XmXFiHUwWulsQ&s"}
           text={"test"}
         />
       </div>
 
       <div className="md:flex justify-center items-center gap-20 p-3">
         <MemoriesImagesComponent
-          img={"/images/memories/deckoto_sto_se_grizi_za_stranata.png"}
+          img={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7XoDijKDfiXKp5pGLX2q09XmXFiHUwWulsQ&s"}
           text={"test"}
         />
         <MemoriesImagesComponent
-          img={"/images/memories/deckoto_sto_se_grizi_za_stranata.png"}
+          img={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7XoDijKDfiXKp5pGLX2q09XmXFiHUwWulsQ&s"}
           text={"test"}
         />
         <MemoriesImagesComponent
-          img={"/images/memories/deckoto_sto_se_grizi_za_stranata.png"}
+          img={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7XoDijKDfiXKp5pGLX2q09XmXFiHUwWulsQ&s"}
           text={"test"}
         />
       </div>

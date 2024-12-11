@@ -4,7 +4,7 @@ const HeroComponent = () => {
     <div
       className="w-full p-10"
       style={{
-        backgroundImage: `linear-gradient(0deg, #1d5d41 0%, rgba(38, 38, 38, 0.1) 65%), url(https://i.imgur.com/x2Wct77.jpeg)`,
+        backgroundImage: `linear-gradient(0deg, #1d5d41 0%, rgba(38, 38, 38, 0.1) 65%), url(https://assets.isu.pub/document-structure/221130133609-31c394e8d3ce8639fb635c22e437e4af/v1/93ee230123c1c0aa9aea9cdb3e8e91f0.jpeg)`,
         backgroundPosition: `center`,
         backgroundSize: `cover`,
         backgroundRepeat: `no-repeat`,
