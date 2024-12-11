@@ -9,35 +9,38 @@ import partnerData from "@/dataFolder/partner.json";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 import LINE from "../images/logos_icons/red_line_full.svg";
+import { RevealList } from "next-reveal";
 
 export function EmblaCarousel() {
   const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()]);
 
   return (
     <>
-      <SubheadingComponent text={"OUR PARTNERS AND SUPPORTERS"} img={LINE} />
-      <div className="embla" ref={emblaRef}>
-        <div className="embla__container gap-3">
-          {partnerData.map(
-            (
-              partner: { image: string | StaticImport; name: string },
-              index: React.Key | null | undefined
-            ) => (
-              <div
-                key={index}
-                className="embla__slide flex justify-center items-center p-5"
-              >
-                <Image
-                  src={partner.image}
-                  alt={partner.name}
-                  width={300}
-                  height={300}
-                />
-              </div>
-            )
-          )}
+      <RevealList interval={100} delay={500}>
+        <SubheadingComponent text={"OUR PARTNERS AND SUPPORTERS"} img={LINE} />
+        <div className="embla" ref={emblaRef}>
+          <div className="embla__container gap-3">
+            {partnerData.map(
+              (
+                partner: { image: string | StaticImport; name: string },
+                index: React.Key | null | undefined
+              ) => (
+                <div
+                  key={index}
+                  className="embla__slide flex justify-center items-center p-5"
+                >
+                  <Image
+                    src={partner.image}
+                    alt={partner.name}
+                    width={300}
+                    height={300}
+                  />
+                </div>
+              )
+            )}
+          </div>
         </div>
-      </div>
+      </RevealList>
     </>
   );
 }

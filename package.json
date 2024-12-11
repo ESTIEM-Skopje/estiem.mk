@@ -13,6 +13,7 @@
     "embla-carousel-autoplay": "^8.5.1",
     "embla-carousel-react": "^8.5.1",
     "next": "15.0.4",
+    "next-reveal": "^1.0.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icon": "^1.0.0",
