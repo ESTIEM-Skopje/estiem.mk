@@ -8,12 +8,14 @@ import IMG4 from "../images/board-members/anastasija.jpg";
 import IMG5 from "../images/board-members/mila.jpg";
 import IMG6 from "../images/board-members/andrea.jpg";
 
+import LINE from "../images/logos_icons/red_line_full.svg";
+
 const BoardCompomemnt = () => {
   return (
     <div className="my-5">
       <SubheadingComponent
         text={"BOARD MEMBERS 2024/25"}
-        img={"/images/logos_icons/red_line_full.svg"}
+        img={LINE}
       />
 
       <div className="md:flex gap-20 justify-center">

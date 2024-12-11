@@ -8,6 +8,9 @@ import SubheadingComponent from "@/components/SubheadingComponent";
 import partnerData from "@/dataFolder/partner.json";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
+
+import LINE from "../images/logos_icons/red_line_full.svg";
+
 export function EmblaCarousel() {
   const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()]);
 
@@ -15,7 +18,7 @@ export function EmblaCarousel() {
     <>
       <SubheadingComponent
         text={"OUR PARTNERS AND SUPPORTERS"}
-        img={"/images/logos_icons/red_line_full.svg"}
+        img={LINE}
       />
       <div className="embla" ref={emblaRef}>
         <div className="embla__container gap-3">
