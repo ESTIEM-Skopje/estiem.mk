@@ -21,12 +21,7 @@ export default function HeaderComponent() {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <Link href="/" className="text-white">
-                  <Image
-                    src={IMG}
-                    alt="Skopje Logo"
-                    width={100}
-                    height={1}
-                  />
+                  <Image src={IMG} alt="Skopje Logo" width={100} height={1} />
                 </Link>
               </div>
             </div>

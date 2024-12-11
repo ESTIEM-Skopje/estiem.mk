@@ -2,7 +2,6 @@ import React from "react";
 
 import MissionComponent from "../components/MissionComponent";
 
-
 import FLAG from "../images/logos_icons/flag_icon.svg";
 
 import BULB from "../images/logos_icons/bulb.svg";

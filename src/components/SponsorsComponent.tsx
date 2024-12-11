@@ -7,12 +7,7 @@ interface FeatureProps {
   info: string;
   text: string;
 }
-const SponsorsComponent = ({
-  img,
-  heading,
-  name,
-  info,
-}: FeatureProps) => {
+const SponsorsComponent = ({ img, heading, name, info }: FeatureProps) => {
   return (
     <article className="md:grid items-center text-center flex m-3 my-5 p-4 items-center">
       <div className="m-2">

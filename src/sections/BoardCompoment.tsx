@@ -13,10 +13,7 @@ import LINE from "../images/logos_icons/red_line_full.svg";
 const BoardCompomemnt = () => {
   return (
     <div className="my-5">
-      <SubheadingComponent
-        text={"BOARD MEMBERS 2024/25"}
-        img={LINE}
-      />
+      <SubheadingComponent text={"BOARD MEMBERS 2024/25"} img={LINE} />
 
       <div className="md:flex gap-20 justify-center">
         <MembersComponent
@@ -43,7 +40,7 @@ const BoardCompomemnt = () => {
         />
         <MembersComponent
           img={IMG2}
-          heading={"Pedja Stankovikj"}
+          heading={"Predrag Stankovikj"}
           subheading={"Local Responsible"}
         />
 

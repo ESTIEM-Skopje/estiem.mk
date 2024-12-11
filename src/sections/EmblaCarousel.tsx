@@ -15,10 +15,7 @@ export function EmblaCarousel() {
 
   return (
     <>
-      <SubheadingComponent
-        text={"OUR PARTNERS AND SUPPORTERS"}
-        img={LINE}
-      />
+      <SubheadingComponent text={"OUR PARTNERS AND SUPPORTERS"} img={LINE} />
       <div className="embla" ref={emblaRef}>
         <div className="embla__container gap-3">
           {partnerData.map(

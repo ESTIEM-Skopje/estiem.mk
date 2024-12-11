@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 interface EventProps {
-  // img: StaticImageData;
   img: string;
   title: string;
   date: string;
