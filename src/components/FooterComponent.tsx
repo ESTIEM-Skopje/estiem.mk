@@ -8,6 +8,7 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 
+import IMG from "../images/logos_icons/estiem_white_logo.png";
 import SocialMediaComponent from "./SocialMediaComponent";
 
 const FooterComponent = () => {
@@ -43,7 +44,7 @@ const FooterComponent = () => {
       </nav>
       <article className="grid justify-items-center text-center m-3 my-5">
         <Image
-          src={"/images/logos_icons/estiem_white_logo.png"}
+          src={IMG}
           alt="Feature Image"
           width={250}
           height={100}

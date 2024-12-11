@@ -1,6 +1,13 @@
 import MembersComponent from "../components/MembersComponent";
 import SubheadingComponent from "@/components/SubheadingComponent";
-import IMG1 from "../images/board-members/deckoto_sto_se_grizi_za_stranata.png";
+
+import IMG1 from "../images/board-members/ivan.jpg";
+import IMG2 from "../images/board-members/pedja.jpg";
+import IMG3 from "../images/board-members/petar.jpg";
+import IMG4 from "../images/board-members/anastasija.jpg";
+import IMG5 from "../images/board-members/mila.jpg";
+import IMG6 from "../images/board-members/andrea.jpg";
+
 const BoardCompomemnt = () => {
   return (
     <div className="my-5">
@@ -12,30 +19,36 @@ const BoardCompomemnt = () => {
       <div className="md:flex gap-20 justify-center">
         <MembersComponent
           img={IMG1}
-          heading={"lorem ipsum"}
-          subheading={"Chairperson"}
+          heading={"Ivan Bejatovic"}
+          subheading={"President"}
         />
         <MembersComponent
-          img={"/images/board-members/deckoto_sto_se_grizi_za_stranata.png"}
-          heading={"lorem ipsum"}
-          subheading={"Contact Person"}
+          img={IMG4}
+          heading={"Anastasija Ignjatovska"}
+          subheading={"VP of IT"}
         />
         <MembersComponent
-          img={"/images/board-members/deckoto_sto_se_grizi_za_stranata.png"}
-          heading={"lorem ipsum"}
-          subheading={"PR Coordinator"}
+          img={IMG3}
+          heading={"Petar Palevski"}
+          subheading={"VP of Public Relations"}
         />
       </div>
       <div className="md:flex gap-20 justify-center">
         <MembersComponent
-          img={"/images/board-members/deckoto_sto_se_grizi_za_stranata.png"}
-          heading={"lorem ipsum"}
-          subheading={"HR Coordinator"}
+          img={IMG5}
+          heading={"Mila Badarevska"}
+          subheading={"VP of CR and Finances"}
         />
         <MembersComponent
-          img={"/images/board-members/deckoto_sto_se_grizi_za_stranata.png"}
-          heading={"lorem ipsum"}
-          subheading={"FR Coordinator"}
+          img={IMG2}
+          heading={"Pedja Stankovikj"}
+          subheading={"Local Responsible"}
+        />
+
+        <MembersComponent
+          img={IMG6}
+          heading={"Andrea Teofilova"}
+          subheading={"VP of human resources"}
         />
       </div>
     </div>

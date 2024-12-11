@@ -4,6 +4,8 @@ import Image from "next/image";
 import React, { useState } from "react";
 import Link from "next/link";
 
+import IMG from "../images/logos_icons/estiem_green_logo.png";
+
 export default function HeaderComponent() {
   const [isClick, setIsClick] = useState(false);
 
@@ -20,7 +22,7 @@ export default function HeaderComponent() {
               <div className="flex-shrink-0">
                 <Link href="/" className="text-white">
                   <Image
-                    src={"/images/logos_icons/estiem_green_logo.png"}
+                    src={IMG}
                     alt="Skopje Logo"
                     width={100}
                     height={1}

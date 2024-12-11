@@ -8,7 +8,7 @@ interface FeatureProps {
 }
 const MembersComponent = ({ img, heading, subheading } : FeatureProps) => {
     return(
-        <article className="grid justify-items-center text-center md:m-8 m-4 zoom">
+        <article className="grid justify-items-center text-center md:my-12 md:mx-10 zoom">
             <Image src={img} alt="Feature Image" height={200} width={200} style={{ borderRadius: "50%", border: "5px solid #1d5d41" }} className="mt-8 mb-8 rounded-full "/> 
             <div>
             <h3 className="text-2xl text-estiem font-bold">{heading}</h3>
