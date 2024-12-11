@@ -1,19 +1,12 @@
 import BlogSkeletonComponent from "@/components/BlogSkeletonComponent";
 import Link from "next/link";
 
-const events = () => {
+const member = () => {
   return (
     <div>
-      <div
-        className="w-full p-10"
-        style={{
-          backgroundPosition: `center`,
-          backgroundSize: `cover`,
-          backgroundRepeat: `no-repeat`,
-        }}
-      >
+      <div>
         <h3 className="my-[1.72rem] font-estiem text-center text-estiem lg:text-6xl md:text-5xl sm:text-4xl text-3xl uppercase font-black">
-          Blog coming soon!
+          Become an ESTIEM member now!
         </h3>
 
         <div className="lg:flex gap-20 justify-center my-[4rem]">
@@ -37,18 +30,7 @@ const events = () => {
           </Link>
         </div>
       </div>
-      {/* <div className="md:flex justify-center">
-        <article className="grid justify-items-center text-center lg:my-6">
-          <Image
-            src={"/images/logos_icons/lightning.svg"}
-            alt="Feature Image"
-            width={40}
-            height={40}
-            className="my-[1.25rem]"
-          />
-        </article>
-      </div> */}
     </div>
   );
 };
-export default events;
+export default member;

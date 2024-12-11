@@ -42,10 +42,10 @@ export default function HeaderComponent() {
                 </Link>
 
                 <Link
-                  href="/blog"
+                  href="/become-member"
                   className="text-estiem hover:bg-estiem hover:text-white rounded-lg p-2"
                 >
-                  Blog
+                  Become a Member
                 </Link>
 
                 <Link
@@ -125,10 +125,10 @@ export default function HeaderComponent() {
               </Link>
 
               <Link
-                href="/blog"
+                href="/become-member"
                 className="text-estiem block hover:bg-estiem hover:text-white rounded-lg p-2"
               >
-                Blog
+                Become a Member
               </Link>
 
               <Link

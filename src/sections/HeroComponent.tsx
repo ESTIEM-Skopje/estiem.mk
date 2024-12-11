@@ -14,10 +14,17 @@ const HeroComponent = () => {
       <div className="container flex items-center justify-center h-full">
         <h3
           className="font-estiem lg:text-6xl md:text-5xl sm:text-4xl text-3xl uppercase text-center flex items-center justify-center h-full"
-          style={{ paddingTop: "20rem" }}
+          style={{ paddingTop: "25rem" }}
         >
           ESTIEM LG Skopje
         </h3>
+      </div>
+      <div className="container flex items-center justify-center h-full">
+        <p
+          className="font-estiem  uppercase text-center flex items-center justify-center h-full"
+        >
+          Travel - Learn - Experience - Connect
+        </p>
       </div>
     </div>
   );

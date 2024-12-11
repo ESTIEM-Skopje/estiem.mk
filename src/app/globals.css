@@ -70,7 +70,7 @@ body {
   box-shadow: inset -3px -3px #b20d13, inset 3px 3px white;
 }
 .button:hover {
-  box-shadow: inset -3px -3px ##1d5d41, inset 3px 3px #b20d13;
+  box-shadow: inset -3px -3px #1d5d41, inset 3px 3px #b20d13;
 }
 
 .button-drug {
@@ -111,14 +111,14 @@ body {
   padding: 10px;
   padding-left: 30px;
   padding-right: 30px;
-  background-color: ##1d5d41; /* Modified color */
+  background-color: #1d5d41; /* Modified color */
   color: var(--chakra-colors-white);
   border: 1px solid #b20d13;
   box-shadow: inset -3px -3px #b20d13, inset 3px 3px white;
 }
 
 .button-drug:hover {
-  box-shadow: inset -3px -3px ##1d5d41, inset 3px 3px #b20d13;
+  box-shadow: inset -3px -3px #1d5d41, inset 3px 3px #b20d13;
 }
 
 .skeleton-card:hover {
@@ -193,7 +193,7 @@ body {
 }
 
 .link-event {
-  background: ##1d5d41;
+  background: #1d5d41;
   color: #fff;
   border: none;
   border-radius: 12px;
@@ -203,7 +203,7 @@ body {
 }
 
 .link-blog {
-  background: ##1d5d41;
+  background: #1d5d41;
   color: #fff;
   border: none;
   border-radius: 12px;
@@ -213,7 +213,7 @@ body {
 }
 
 .link-login {
-  background: ##1d5d41;
+  background: #1d5d41;
   color: #fff;
   border: none;
   border-radius: 12px;

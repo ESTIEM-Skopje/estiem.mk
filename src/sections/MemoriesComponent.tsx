@@ -1,7 +1,13 @@
 import MemoriesImagesComponent from "@/components/MemoriesImagesComponent";
 import SubheadingComponent from "@/components/SubheadingComponent";
-
 import LINE from "../images/logos_icons/red_line_full.svg";
+
+import IMG1 from "../images/memories/memory1.jpg";
+import IMG2 from "../images/memories/memory2.jpg";
+import IMG3 from "../images/memories/memory3.jpg";
+import IMG4 from "../images/memories/memory4.jpg";
+import IMG5 from "../images/memories/memory5.jpg";
+import IMG6 from "../images/memories/memory6.jpg";
 
 const MemoriesComponent = () => {
   return (
@@ -10,45 +16,15 @@ const MemoriesComponent = () => {
         <SubheadingComponent text={"MAKING MEMORIES SINCE 2002"} img={LINE} />
       </div>
       <div className="md:flex justify-center items-center gap-20 p-3">
-        <MemoriesImagesComponent
-          img={
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7XoDijKDfiXKp5pGLX2q09XmXFiHUwWulsQ&s"
-          }
-          text={"test"}
-        />
-        <MemoriesImagesComponent
-          img={
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7XoDijKDfiXKp5pGLX2q09XmXFiHUwWulsQ&s"
-          }
-          text={"test"}
-        />
-        <MemoriesImagesComponent
-          img={
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7XoDijKDfiXKp5pGLX2q09XmXFiHUwWulsQ&s"
-          }
-          text={"test"}
-        />
+        <MemoriesImagesComponent img={IMG1} text={"Memory images"} />
+        <MemoriesImagesComponent img={IMG2} text={"Memory images"} />
+        <MemoriesImagesComponent img={IMG3} text={"Memory images"} />
       </div>
 
       <div className="md:flex justify-center items-center gap-20 p-3">
-        <MemoriesImagesComponent
-          img={
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7XoDijKDfiXKp5pGLX2q09XmXFiHUwWulsQ&s"
-          }
-          text={"test"}
-        />
-        <MemoriesImagesComponent
-          img={
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7XoDijKDfiXKp5pGLX2q09XmXFiHUwWulsQ&s"
-          }
-          text={"test"}
-        />
-        <MemoriesImagesComponent
-          img={
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7XoDijKDfiXKp5pGLX2q09XmXFiHUwWulsQ&s"
-          }
-          text={"test"}
-        />
+        <MemoriesImagesComponent img={IMG4} text={"Memory images"} />
+        <MemoriesImagesComponent img={IMG5} text={"Memory images"} />
+        <MemoriesImagesComponent img={IMG6} text={"Memory images"} />
       </div>
     </section>
   );
