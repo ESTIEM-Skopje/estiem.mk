@@ -1,7 +1,7 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 interface JoinUsProps {
-  img: string;
+  img: string | StaticImageData;
   heading: string;
   text: string;
 }

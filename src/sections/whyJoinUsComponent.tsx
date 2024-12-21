@@ -4,9 +4,9 @@ import JoinUsComponent from "../components/JoinUsComponent";
 import SubheadingComponent from "@/components/SubheadingComponent";
 
 import Img1 from "@/images/logos_icons/red_line_full.svg";
-import Img2 from "@/images/logos_icons/Logo.svg";
-import Img3 from "@/images/logos_icons/Logo.svg";
-import Img4 from "@/images/logos_icons/Logo.svg";
+import Img2 from "@/images/logos_icons/estiem_green_logo.png";
+import Img3 from "@/images/logos_icons/estiem_green_logo.png";
+import Img4 from "@/images/logos_icons/estiem_green_logo.png";
 import Img5 from "@/images/background.jpg";
 import { RevealList } from "next-reveal";
 
