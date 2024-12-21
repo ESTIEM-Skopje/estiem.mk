@@ -16,7 +16,6 @@ export function EmblaCarousel() {
 
   return (
     <>
-      <RevealList interval={100} delay={500}>
         <SubheadingComponent text={"OUR PARTNERS AND SUPPORTERS"} img={LINE} />
         <div className="embla" ref={emblaRef}>
           <div className="embla__container gap-3">
@@ -40,7 +39,6 @@ export function EmblaCarousel() {
             )}
           </div>
         </div>
-      </RevealList>
     </>
   );
 }
