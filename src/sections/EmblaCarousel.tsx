@@ -9,7 +9,6 @@ import partnerData from "@/dataFolder/partner.json";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 import LINE from "../images/logos_icons/red_line_full.svg";
-import { RevealList } from "next-reveal";
 
 export function EmblaCarousel() {
   const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()]);
